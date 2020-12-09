@@ -1,0 +1,18 @@
+spring:
+ # 数据源配置
+  datasource:
+    ds1: #数据源1
+      driver-class-name: com.mysql.jdbc.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:mysql://localhost:3306/db # 数据源地址
+      username: root # 用户名
+      password:  # 密码
+    ds2: # 数据源2
+      driver-class-name: com.mysql.jdbc.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:mysql://localhost:3316/db # 数据源地址
+      username: root # 用户名
+      password:  # 密码
+    ds3: # 数据源3
+      driver-class-name: com.mysql.jdbc.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:mysql://localhost:3326/db # 数据源地址
+      username: root # 用户名
+      password:  # 密码
