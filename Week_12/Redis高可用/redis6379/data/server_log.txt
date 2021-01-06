@@ -1,0 +1,7 @@
+1:C 06 Jan 2021 15:22:36.243 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Jan 2021 15:22:36.349 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Jan 2021 15:22:36.360 # Configuration loaded
+1:M 06 Jan 2021 15:22:36.480 * Running mode=standalone, port=6379.
+1:M 06 Jan 2021 15:22:36.493 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 06 Jan 2021 15:22:36.609 # Server initialized
+1:M 06 Jan 2021 15:22:36.725 * Ready to accept connections

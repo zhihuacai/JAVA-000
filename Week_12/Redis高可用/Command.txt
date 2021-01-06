@@ -1,0 +1,21 @@
+docker run -p 6379:6379 --name redis6379 -v C:/ZHIHUA/Software/Redis/redis6379/conf/redis.windows-service.conf:/etc/redis/redis.windows-service.conf -v C:/ZHIHUA/Software/Redis/redis6379/data:/data -d redis redis-server /etc/redis/redis.windows-service.conf --appendonly yes
+
+
+
+docker run -p 6380:6380 --name redis6380 -v C:/ZHIHUA/Software/Redis/redis6380/conf/redis.windows-service.conf:/etc/redis/redis.windows-service.conf -v C:/ZHIHUA/Software/Redis/redis6380/data:/data -d redis redis-server /etc/redis/redis.windows-service.conf --appendonly yes
+
+
+docker run -p 6381:6381 --name redis6381 -v C:/ZHIHUA/Software/Redis/redis6381/conf/redis.windows-service.conf:/etc/redis/redis.windows-service.conf -v C:/ZHIHUA/Software/Redis/redis6381/data:/data -d redis redis-server /etc/redis/redis.windows-service.conf --appendonly yes
+
+
+
+
+docker run -p 26379:26379 --name redis26379 -v C:/ZHIHUA/Software/Redis/redis26379/conf/redis.windows-service.conf:/etc/redis/redis.windows-service.conf -v C:/ZHIHUA/Software/Redis/redis26379/data:/data -d redis redis-server /etc/redis/redis.windows-service.conf --sentinel --appendonly yes 
+
+
+docker run -p 26380:26380 --name redis26380 -v C:/ZHIHUA/Software/Redis/redis26380/conf/redis.windows-service.conf:/etc/redis/redis.windows-service.conf -v C:/ZHIHUA/Software/Redis/redis26380/data:/data -d redis redis-server /etc/redis/redis.windows-service.conf --sentinel --appendonly yes 
+
+
+docker run -p 26381:26381 --name redis26381 -v C:/ZHIHUA/Software/Redis/redis26381/conf/redis.windows-service.conf:/etc/redis/redis.windows-service.conf -v C:/ZHIHUA/Software/Redis/redis26381/data:/data -d redis redis-server /etc/redis/redis.windows-service.conf --sentinel --appendonly yes 
+
+

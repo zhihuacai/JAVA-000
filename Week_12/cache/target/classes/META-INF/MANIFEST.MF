@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: cache
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ccai034
+Implementation-Vendor-Id: io.kimmking.08cache
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/cache
+Created-By: Maven Integration for Eclipse
+
